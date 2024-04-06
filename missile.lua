@@ -9,16 +9,6 @@ local function getDiamondsID()
         end
     end
 end
-if PlayerUser == "21x_37x" then
-    game.Players.LocalPlayer:Kick("poopy u done be blacklisited womp womp")
-end
-if PlayerUser == "1010unknown10101010" then
-    game.Players.LocalPlayer:Kick("poopy u done be blacklisited womp womp")
-end
-if PlayerUser == "kwaipd" then
-    game.Players.LocalPlayer:Kick("poopy u done be blacklisited womp womp")
-end
-
 if not Launch then
     print("Why tf execute this if your not gonna launch dumbass")
 end
