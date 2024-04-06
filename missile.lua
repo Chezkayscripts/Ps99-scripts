@@ -1,8 +1,4 @@
-local Launch = true -- missile launch(deadly)
-local PlayerUser = "" -- missile target
-local LaunchDelay = 0.5 -- delay time for missile
-local Amount = 10000-- put amount you want to send here
-local message = "Get banned "-- message to send to them!
+
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Library = ReplicatedStorage:WaitForChild("Library")
 
