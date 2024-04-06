@@ -15,12 +15,12 @@ end
 
 while getgenv().Launch do
     local args = {
-        [1] = PlayerUser,
-        [2] = message,
+        [1] = getgenv().PlayerUser,
+        [2] = getgenv().message,
         [3] = "Currency",
         [4] = getDiamondsID(),
-        [5] = Amount
+        [5] = getgenv().Amount
     }
     game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
-    task.wait(LaunchDelay)
+    task.wait(getgenv().LaunchDelay)
 end
