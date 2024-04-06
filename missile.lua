@@ -9,11 +9,11 @@ local function getDiamondsID()
         end
     end
 end
-if not Launch then
+if not getgenv().Launch then
     print("Why tf execute this if your not gonna launch dumbass")
 end
 
-while Launch do
+while getgenv().Launch do
     local args = {
         [1] = PlayerUser,
         [2] = message,
